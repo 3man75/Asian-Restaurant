@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Asian Restaurants in Miami</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma"> -->
+
+
+  
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">&#9776;</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">Asian Foods in Miami</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <!-- Replace food images with pictures of Asian Restaurants-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="{{komodo}}" alt="Komodo" style="width:100%">
+      <h3>Komodo</h3>
+      <p>Southeast Asian Restaurant in Downtown Miami.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="{{Wei}}" alt="Steak" style="width:100%">
+      <h3>Da Tang Zhen Wei</h3>
+      <p>A Chinese Restaurant located in Brickel. Featuring high end contemporary Chinese foods with different regional specialties.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="{{Fuchai}}" alt="Cherries" style="width:100%">
+      <h3>Fuchai Miami</h3>
+      <p>Fuchai Miami is a Southeast Asian Restaurant that focuses its menu on a Fusion of Chinese and Korean Foods. They have also have vegan and vegetarian options as well as a kids menu.</p>
+      <p>What else?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="{{Hutong}}" alt="Pasta and Wine" style="width:70%">
+      <h3>Hutong Miami</h3>
+      <p>Hutong Miami is a Chinese Restaurant with an emphasis of cocktails from Hong Kong, London, and New York. Hutong stays true to its Chinese roots with its menu while embracing the Miami ambience.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="{{Yip}}" alt="Popsicle" style="width:100%">
+      <h3>Yip Dip Sun</h3>
+      <p>With a Location in Doral Yip Dip Sun brings Chinese cuisine a little closer to home for me. After visitting with a freind I ended up enjoying their Boba tea's and their Dumplings best.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="{{Shima}}" alt="Salmon" style="width:100%">
+      <h3>Sushi Shima's in Miami Gardens</h3>
+      <p>One of my all time favorite restaurants for Asian food in Miami albeit a little far from previously mentioned locations. Shimaa serves traditional Japanese food and even comes with small little boats as extra platters that guests can take for themselves. Which is a traditional staple in .</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="{{Chow}}" alt="One Chow" style="width:100%">
+      <h3>Chow one Korean Steakhouse</h3>
+      <p>Chow One is an amazing middle of the road restaurant.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="{{Tanuki}}" alt="Tanuki" style="width:100%">
+      <h3>Tanuki Miami</h3>
+      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">&laquo;</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">&raquo;</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, The Food Man and A Friendly Neighborhood Programmer</h3><br>
+    <img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Hello everyone! My name is Javier and I love Asian Food. My first real taste of Asian Food was at a Japanese Restaurant close to me with some friends
+	after I was told about it. I would later go on with friends celebrating birthdays and celebrating with a host of reasons to try our favorite restaurants. As
+	a programmer with the power to create I decided to build this website for anyone in Miami or the Miami area to find some neat restaurants that I have been to or that
+      seem to generate positive reviews.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Miami</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
